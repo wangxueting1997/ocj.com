@@ -1,0 +1,316 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 1190px;
+  margin: 0 auto;
+  height: 460px;
+}
+section .shop-wrap {
+  position: relative;
+}
+section .shop-wrap .car_nav {
+  width: 1190px;
+  height: 70px;
+}
+section .shop-wrap .car_nav .logo {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 70px;
+  background: url(../images/05_shopBG.png) no-repeat 0 -177px;
+}
+section .shop-wrap .car_nav .logo b {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  display: block;
+  width: 20px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+section .shop-wrap .car_nav .step {
+  margin-top: 15px;
+  width: 745px;
+  height: 40px;
+  float: right;
+  background: url(../images/05_shopBG.png) no-repeat;
+}
+section .shop-wrap .car_info {
+  height: 31px;
+  padding-top: 15px;
+}
+section .shop-wrap .car_info i {
+  display: block;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 5px 10px 0 0 ;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+}
+section .shop-wrap .car_info ul li {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+  color: black;
+}
+section .shop-wrap .car_info ul li b {
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+}
+section .shop-wrap .car_info ul li span {
+  font-weight: bold;
+}
+section .shop-wrap .car_info ul li em {
+  color: skyblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+section .shop-wrap .car_con {
+  width: 1190px;
+  height: 40px;
+  border-top: 4px solid skyblue;
+  background-color: #d7dfe5;
+}
+section .shop-wrap .car_con .con_tit {
+  height: 40px;
+  text-align: center;
+}
+section .shop-wrap .car_con .con_tit span {
+  display: block;
+  float: left;
+  width: 443px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+section .shop-wrap .car_con .con_tit b {
+  float: left;
+  margin: 0 50px 0 46px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+section .shop-wrap .car_con .tit_bot {
+  width: 1188px;
+  height: 38px;
+  border: 1px solid #ccc;
+}
+section .shop-wrap .car_con .tit_bot div {
+  width: 1073px;
+  height: 38px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+section .shop-wrap .car_con .goods {
+  padding-top: 20px;
+  position: relative;
+  height: 83px;
+  border: 1px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  border-top: 0;
+}
+section .shop-wrap .car_con .goods span {
+  display: block;
+  float: left;
+  width: 443px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+}
+section .shop-wrap .car_con .goods span input {
+  vertical-align: middle;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+section .shop-wrap .car_con .goods span .sma_de {
+  position: absolute;
+  left: 50px;
+  top: -30px;
+  padding: 20px;
+  float: left;
+}
+section .shop-wrap .car_con .goods span .sma_de img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 20px;
+}
+section .shop-wrap .car_con .goods span .sma_de p {
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 20px;
+}
+section .shop-wrap .car_con .goods span .sma_de i {
+  color: #666;
+  font: 12px;
+  float: left;
+  margin-left: 10px;
+}
+section .shop-wrap .car_con .goods b {
+  float: left;
+  margin: 0 50px 0 46px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+section .shop-wrap .car_con .goods b:last-child {
+  position: absolute;
+  right: 95px;
+  top: 20px;
+  width: 80px;
+  height: 33px;
+  background: url(../images/05_shopBG.png) no-repeat 0 -355px;
+}
+section .shop-wrap .car_con .goods button {
+  width: 42px;
+  height: 16px;
+  position: absolute;
+  right: 183px;
+  top: 50px;
+  font-size: 12px;
+}
+section .shop-wrap .car_con .goods li {
+  width: 114px;
+  height: 103px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #ccc;
+}
+section .shop-wrap .con_bot {
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 1190px;
+  height: 40px;
+}
+section .shop-wrap .con_bot span {
+  display: block;
+  width: 101px;
+  height: 33px;
+  background: url(../images/05_shopBG.png) no-repeat -168px -354px;
+}
+section .shop-wrap .car_buy {
+  position: absolute;
+  left: 0;
+  bottom: -170px;
+  width: 1190px;
+  height: 70px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+section .shop-wrap .car_buy input {
+  vertical-align: middle;
+}
+section .shop-wrap .car_buy span {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  line-height: 70px ;
+  margin-right: 20px;
+}
+section .shop-wrap .car_buy div {
+  float: right;
+  margin-right: 115px;
+}
+section .shop-wrap .car_buy div em {
+  float: left;
+  margin-top: 25px;
+}
+section .shop-wrap .car_buy div span {
+  float: left;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  display: block;
+}
+section .shop-wrap .car_buy div span i,
+section .shop-wrap .car_buy div span b {
+  line-height: 50px;
+}
+section .shop-wrap .car_buy div span i {
+  color: red;
+}
+section .shop-wrap .car_buy div span .b {
+  font-weight: bold;
+  font-size: 18px;
+}
+section .shop-wrap .suan {
+  position: absolute;
+  right: 0;
+  bottom: -157px;
+  height: 43px;
+  width: 151px;
+  background: url(../images/05_shopBG.png) no-repeat -212px -179px;
+}
+.forU {
+  width: 1160px;
+  margin: 0 auto;
+  height: 320px;
+  border: 1px solid #ccc;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+.forU h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.forU div {
+  width: 1080px;
+  height: 300px;
+  margin-left: 55px;
+}
+.forU div li {
+  float: left;
+  width: 170px;
+  height: 272px;
+  background-color: white;
+  padding-left: 10px;
+}
+.forU div li img {
+  width: 160px;
+  height: 170px;
+}
+.forU div li p,
+.forU div li span,
+.forU div li i {
+  font-size: 14px;
+}
+.forU div li p {
+  width: 160px;
+  height: 54px;
+  margin-bottom: 5px;
+}
+.forU div li span {
+  color: #bbb;
+}
+.forU div li i {
+  color: #f12e24;
+}
+.forU div li i em {
+  font-weight: bold;
+}
+.fixpart {
+  height: 253px;
+}

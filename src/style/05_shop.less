@@ -1,0 +1,329 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding:0;
+}
+
+// shopCar
+section{
+    width: 1190px;
+    margin: 0 auto;
+    height: 460px;
+    .shop-wrap{
+        position: relative;
+        .car_nav{
+            width: 1190px;
+            height: 70px;
+            // background-color: yellow;
+            .logo{
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 70px;
+                background: url(../images/05_shopBG.png) no-repeat 0 -177px;
+                b{
+                    position: absolute;
+                    right: 100px;top: 10px;
+                    display: block;
+                    width: 20px;
+                    height: 18px;
+                    border-radius: 10px;
+                    background-color: red;
+                    color: white;
+                    font-size: 12px;
+                    text-align: center;
+
+
+                }
+            }
+            .step{
+                margin-top: 15px;
+                width: 745px;
+                height: 40px;
+                float: right;
+                background: url(../images/05_shopBG.png) no-repeat;
+            }
+        }
+        .car_info{
+            height: 31px;
+            padding-top: 15px;
+            i{
+                display: block;
+                border: 1px solid #ccc;
+                width: 16px;
+                height: 16px;
+                float: left;
+                margin: 5px 10px 0 0 ;
+                font-size: 16px;
+                text-align: center;
+                line-height: 16px;
+            }
+            ul{
+                li{
+                    float: left;
+                    margin-right: 20px;
+                    font-size: 14px;
+                    color: black;
+                    b{
+                        width: 6px;
+                        height: 6px;
+                        background-color: red;
+                        color: white;
+                        font-size: 10px;
+                        margin-right: 5px;
+                    }
+                    span{
+                        font-weight: bold;
+                    }
+                    em{
+                        color: skyblue;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .car_con{
+            width: 1190px;
+            height: 40px;
+            border-top: 4px solid skyblue;
+            background-color: #d7dfe5;
+            .con_tit{
+                height: 40px;
+                text-align: center;
+                span{
+                    display: block;
+                    float: left;
+                    width: 443px;
+                    height: 40px;
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+                }
+                b{
+                    float: left;
+                    margin: 0 50px 0 46px;
+
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+
+                }
+            }
+            .tit_bot{
+                width: 1188px;
+                height: 38px;
+                border: 1px solid #ccc;
+                div{
+                    width: 1073px;
+                    height: 38px;
+                    border-bottom:  1px solid #ccc;
+                    border-right:  1px solid #ccc;
+                }
+            }
+            .goods{
+                padding-top: 20px;
+                position: relative;
+                height: 83px;
+                border: 1px solid #ccc;
+                border-bottom: 3px solid #ccc;
+                border-top: 0;
+                span{
+                    display: block;
+                    float: left;
+                    width: 443px;
+                    height: 40px;
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+                    position: relative;
+                    input{
+                        vertical-align: middle;
+                        position: absolute;
+                        left: 30px;
+                        top: 30px;
+                    }
+                    .sma_de{
+                        position: absolute;
+                        left: 50px;
+                        top: -30px;
+                        padding: 20px;
+                        float: left;
+                        img{
+                            width: 80px;
+                            height: 80px;
+                            float: left;
+                            margin-right: 20px;
+                        }
+                        p{
+                            width: 300px;
+                            height: 50px;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        i{
+                            color: #666;
+                            font: 12px;
+                            float: left;
+                            margin-left: 10px;
+                        }
+
+                        
+                    }
+                }
+
+                b{
+                    float: left;
+                    margin: 0 50px 0 46px;
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+                }
+                b:last-child{
+                    position: absolute;
+                    right: 95px;top: 20px;
+                    width: 80px;
+                    height: 33px;
+                    background: url(../images/05_shopBG.png) no-repeat 0 -355px;
+                }
+                button{
+                    width: 42px;
+                    height: 16px;
+                    position: absolute;
+                    right:183px;top: 50px;
+                    font-size: 12px;
+                }
+                li{
+                    width: 114px;
+                    height: 103px;
+                    position: absolute;
+                    right:0;top: 0;
+
+                    border-left: 1px solid #ccc;
+                }
+            }
+        }
+        .con_bot{
+            position: absolute;
+            left: 0;bottom: -100px;
+            width: 1190px;
+            height: 40px;
+            // background-color: skyblue;
+            span{
+                display: block;
+                width: 101px;
+                height: 33px;
+                background: url(../images/05_shopBG.png) no-repeat -168px -354px;
+            }
+        }
+        .car_buy{
+            position: absolute;
+            left: 0;bottom: -170px;
+            width: 1190px;
+            height: 70px;
+            border: 1px solid #ccc;
+            background-color: #eee;
+            
+            input{
+                vertical-align: middle;
+            }
+            span{
+                font-size: 12px;
+                color: black;
+                text-align: center;
+                line-height:70px ;                
+                margin-right: 20px;
+            }
+            div{
+                float: right;
+                margin-right: 115px;
+                
+                em{
+                    float: left;
+                    margin-top: 25px;
+                }
+                span{
+                    float: left;
+                    width: 170px;
+                    height: 50px;
+                    text-align: center;
+                    display: block;
+                    i,b{
+                        line-height: 50px;
+                    }
+                    i{
+                        color: red;
+                    }
+                    .b{
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+            }
+            
+        }
+        .suan{
+            position: absolute;
+            right: 0;bottom: -157px;
+            height: 43px;
+            width: 151px;
+            background: url(../images/05_shopBG.png) no-repeat -212px -179px;
+        }
+    }
+}
+
+.forU{
+    width: 1160px;
+    margin: 0 auto;
+    height: 320px;
+    border: 1px solid #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+        
+    h2{
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    div{
+       width: 1080px;
+       height: 300px;
+       margin-left: 55px;
+    li{
+        float: left;
+        width: 170px;
+        height: 272px;
+        background-color: white;
+        padding-left: 10px;
+        img{
+            width: 160px;
+            height: 170px;
+        }
+        p,span,i{
+            font-size: 14px;
+        }
+        p{
+            width: 160px;
+            height: 54px;
+            margin-bottom: 5px;
+        }
+        span{
+            color: #bbb;
+        }
+        i{
+            color: #f12e24;
+            em{
+                font-weight: bold;
+            }
+        }
+        
+    }
+}
+}
+
+.fixpart{
+    height: 253px;
+}
+
+
