@@ -1,0 +1,132 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 1190px;
+  height: 1200px;
+  margin: 0 auto;
+}
+section .list-wrap .list_tit {
+  width: 1200px;
+  height: 37px;
+  margin: 10px ;
+  font-size: 12px;
+  line-height: 37px;
+}
+section .list-wrap .list_tit span {
+  color: #666;
+}
+section .list-wrap .list_nav {
+  border: 1px solid #ccc;
+  width: 965px;
+  height: 271px;
+}
+section .list-wrap .list_nav .pin {
+  height: 67px;
+}
+section .list-wrap .list_nav .pin span {
+  height: 47px;
+}
+section .list-wrap .list_nav .pin ul li {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+section .list-wrap .list_nav li {
+  border-bottom: 1px dashed #ccc;
+  width: 965px;
+  height: 50px;
+  font-size: 12px;
+}
+section .list-wrap .list_nav li span {
+  color: #666;
+  float: left;
+  display: block;
+  width: 79px;
+  min-height: 30px;
+  background-color: #f7f7f7;
+  font-size: 12px;
+  text-align: right;
+  padding: 10px;
+  margin-right: 10px;
+}
+section .list-wrap .list_nav li ul {
+  float: left;
+}
+section .list-wrap .list_nav li ul li {
+  border: none;
+  width: 100px;
+  height: 40px;
+  line-height: 37px;
+  float: left;
+  margin-right: 10px;
+}
+section .list-wrap .list_nav li ul li img {
+  width: 100%;
+  height: 100%;
+}
+section .list-wrap .list_nav li a {
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: #333;
+  border: 1px solid #ccc;
+}
+section .list-wrap .list_nav li em {
+  float: right;
+  margin-right: -70px;
+  margin-top: 10px;
+}
+section .list-wrap .list_order {
+  width: 980px;
+  min-height: 460px;
+  padding-top: 10px;
+}
+section .list-wrap .list_order ul {
+  width: 980px;
+  height: 369px;
+}
+section .list-wrap .list_order ul li {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  float: left;
+  width: 215px;
+  height: 359px;
+}
+section .list-wrap .list_order ul li img {
+  width: 219px;
+  height: 219px;
+  margin-bottom: 10px;
+}
+section .list-wrap .list_order ul li i {
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+section .list-wrap .list_order ul li em {
+  float: right;
+  font-size: 14px;
+  color: #666666;
+}
+section .list-wrap .list_order ul li p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+section .list-wrap .page {
+  display: flex;
+  padding: 20px 0 0 350px;
+  justify-content: start;
+  align-items: center;
+}
+section .list-wrap .page a,
+section .list-wrap .page span {
+  margin: 5px;
+  color: black;
+  font-size: 14px;
+}
+.fixpart {
+  height: 253px;
+}
